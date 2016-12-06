@@ -152,13 +152,12 @@ pub use self::error::{Error, ErrorCode, Result};
 pub use self::ser::{Serializer, escape_str, to_string, to_string_pretty,
                     to_vec, to_vec_pretty, to_writer, to_writer_pretty};
 pub use self::value::{Map, Value, from_value, to_value};
-pub use self::pointer::Pointer;
 
 pub mod builder;
 pub mod de;
 pub mod error;
 pub mod ser;
 pub mod value;
-pub mod pointer;
+pub mod patch;
 
 mod read;
