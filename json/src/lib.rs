@@ -135,7 +135,8 @@
     missing_docs_in_private_items,
 ))]
 
-#![deny(missing_docs)]
+// TODO Turn this back on after finalizing API
+// #![deny(missing_docs)]
 
 extern crate num_traits;
 extern crate core;
